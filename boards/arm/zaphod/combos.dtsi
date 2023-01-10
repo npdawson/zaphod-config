@@ -19,9 +19,9 @@ combos {
     COMBO(bootloader, &bootloader, 0 1 2 3, l_alpha)
     COMBO(bluetooth, &mo l_bt, 32 33, l_alpha)
     
-    COMBO(typeQ, &typeQ, 28 29, l_alpha)
+    COMBO(typeQ, &kp Q, 28 29, l_alpha)
     COMBO(typeQu, &typeQu, 28 28, l_alpha)
-    COMBO(typeZ, &typeZ, 0 1, l_alpha)
+    COMBO(typeZ, &kp Z, 0 1, l_alpha)
     
     COMBO(esc, &kp ESC, 10 13, l_alpha)
     COMBO(tab, &kp TAB, 10 11, l_alpha)
