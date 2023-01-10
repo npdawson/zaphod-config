@@ -19,7 +19,7 @@ symbol_layer {
     label = "Symbols";
     bindings = <
 &kp GRAVE &kp LT &kp DLLR &kp GT &kp SQT           &kp QMARK &kp LBKT &kp UNDER &kp MINUS &kp RBKT
-&kp BLSH &kp LPAR &kp DQT &kp HASH &kp RPAR        &kp EXCL &kp LBRC &kp COLON &kp FSLH &kp RBRC
+&kp BSLH &kp LPAR &kp DQT &kp HASH &kp RPAR        &kp EXCL &kp LBRC &kp COLON &kp FSLH &kp RBRC
 &kp AT &kp EQUAL &kp STAR &kp PLUS &kp SEMI        &kp PRCNT &kp AMPS &kp CARET &kp TILDE &kp PIPE      
                                    &none &none   &none &none
     >;
