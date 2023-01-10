@@ -1,0 +1,56 @@
+//                                     shorcuts & navigation
+//╭────────────────────────────────────────────╮ ╭──────────────────────────────────────────╮
+//|        |         |       |       |         | | HOME  |  PG_DN |  PG_UP |   END  |       |
+//|   gui  |   alt   |  ctrl |  shft |         | | LEFT  |  DOWN  |   UP   |  RIGHT |       |
+//|        |         |       |       |         | | undo  |  cut   |  copy  |  pste  |       |
+//╰──────────────────────────╮       |         | | SPACE |  BKSP  ╭─────────────────────────╯
+//                           ╰─────────────────╯ ╰────────────────╯
+nav_layer {
+    label = "Nav";
+    bindings = <
+&none &none &none &none &none                      &kp HOME &kp PG_DN &kp PG_UP &kp END &none
+&kp LCTRL &kp LALT &kp LGUI &kp LSHFT &none        &kp LEFT &kp DOWN &kp UP &kp RIGHT &none
+&none &none &none &none &none                      &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &none      
+                                  &none &none   &kp SPACE &BspcDel
+    >;
+};
+//                                       Symbols
+symbol_layer {
+    label = "Symbols";
+    bindings = <
+&kp GRAVE &kp LT &kp DLLR &kp GT &kp SQT           &kp QMARK &kp LBKT &kp UNDER &kp MINUS &kp RBKT
+&kp BLSH &kp LPAR &kp DQT &kp HASH &kp RPAR        &kp EXCL &kp LBRC &kp COLON &kp FSLH &kp RBRC
+&kp AT &kp EQUAL &kp STAR &kp PLUS &kp SEMI        &kp PRCNT &kp AMPS &kp CARET &kp TILDE &kp PIPE      
+                                   &none &none   &none &none
+    >;
+};
+//                                       Function keys
+function_layer {
+    label = "Function";
+    bindings = <
+&kp F1 &kp F2  &kp F3  &kp F4  &kp PSCRN           &none &none &none &none &none
+&kp F5 &kp F6  &kp F7  &kp F8  &kp SLCK            &none &none &none &none &none
+&kp F9 &kp F10 &kp F11 &kp F12 &kp PAUSE_BREAK     &none &none &none &none &none     
+                                    &none &none   &none &none
+    >;
+};
+//                                       Numpad
+numpad_layer {
+    label = "Numpad";
+    bindings = <
+&none &none &none &none &none      &kp KP_DIVIDE   &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS
+&none &none &none &none &none      &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS
+&none &none &none &none &none      &kp KP_NUM      &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_DOT
+                &none &kp KP_N0  &kp SPACE &kp BKSP
+    >;
+};
+//                                       Bluetooth controls
+bt_layer {
+    label = "Bluetooth";
+    bindings = <
+&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4        &none &none &none &none &none
+&none &none &none &none &none                                           &none &none &none &none &none
+&bt BT_CLR &none &none &none &none                                      &none &none &none &none &none
+                                            &none &none   &none &none
+    >;
+};
