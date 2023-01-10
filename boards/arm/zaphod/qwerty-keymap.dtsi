@@ -1,0 +1,9 @@
+qwerty_layer {
+    label = "QWERTY";
+    bindings = <
+&kp Q      &kp W      &kp E       &kp R          &kp T         &kp Y            &kp U          &kp I       &kp O      &kp P
+&hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F    &lt l_num G   &kp H            &hm RSHFT J    &hm RCTRL K &hm LALT L &hm LGUI QUOT
+&kp Z      &kp X      &kp C       &kp V          &kp B         &kp N            &kp M          &kp COMMA   &kp DOT    &kp FSLH
+                                  &lt l_sym BKSP &mo l_nav     &lt l_sym SPACE  &lt l_fn RET
+    >;
+};
