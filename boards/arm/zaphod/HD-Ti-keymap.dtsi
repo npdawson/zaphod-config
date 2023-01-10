@@ -1,0 +1,17 @@
+ /*   Base (alpha) Layer  (Hands Down Ti)
+   ╭────────────────────╮ ╭────────────────────╮
+   │  J   G   M   P  V  │ │ #$  .:  /*  "[  '] │
+   │  C   S   N   T  W  | | ,;   A   E   I   H │
+   │  X   F   L   D  B  │ │ -+   U   O   Y   K │
+   ╰───────────╮ BSP R  │ │ SPC RET ╭──────────╯
+               ╰────────╯ ╰─────────╯   */
+
+default_layer {
+    label = "HD-ti";
+    bindings = <
+&kp J      &kp G      &kp M       &kp P       &kp V       &HashDllr &DotColn    &SlshStar   &DqtLbkt   &SqtRbkt
+&hm LGUI C &hm LALT S &hm LCTRL N &hm LSHFT T &lt l_num W &CmmaSemi &hm RSHFT A &hm RCTRL E &hm RALT I &hm RGUI H
+&kp X      &kp F      &kp L       &kp D       &kp B       &MinusPlus &kp U      &kp O       &kp Y      &kp K
+                               &lt l_num BKSP &lt l_nav R &lt l_sym SPACE &lt l_fn RET
+    >;
+};
