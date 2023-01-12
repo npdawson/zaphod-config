@@ -10,5 +10,5 @@
 #define l_bt     6
 
 &mt {
-    tapping-term-ms = <170>;
+    tapping-term-ms = <200>;
 };
