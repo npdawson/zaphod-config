@@ -36,11 +36,25 @@ behaviors {
             bindings = <&kp FSLH>, <&kp STAR>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+        EqlStar: EqlStar {
+            compatible = "zmk,behavior-mod-morph";
+            label = "EqlStar";
+            #binding-cells = <0>;
+            bindings = <&kp EQUAL>, <&kp STAR>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
         HashDllr: HashDllr {
             compatible = "zmk,behavior-mod-morph";
             label = "HashDllr";
             #binding-cells = <0>;
             bindings = <&kp HASH>, <&kp DLLR>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        HashUndr: HashUndr {
+            compatible = "zmk,behavior-mod-morph";
+            label = "HashUndr";
+            #binding-cells = <0>;
+            bindings = <&kp HASH>, <&kp UNDER>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         MinusPlus: MinusPlus {
