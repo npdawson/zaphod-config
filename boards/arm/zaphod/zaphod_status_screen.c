@@ -80,7 +80,7 @@ lv_obj_t *zmk_display_status_screen() {
     lv_label_set_text(panic_label, "Panic");
     
     lv_obj_update_layout(dont_label); // otherwise proper height is not known
-    lv_obj_set_y(panic_label, lv_obj_height(dont_label));
+    lv_obj_set_y(panic_label, lv_obj_get_height(dont_label));
 #endif // IS_ENABLED(CONFIG_ZAPHOD_BONGO_CAT)
     lv_obj_set_size(center_frame, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
 
