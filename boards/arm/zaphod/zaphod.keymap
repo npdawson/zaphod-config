@@ -11,7 +11,7 @@
 
     keymap {
         compatible = "zmk,keymap";
-#include "HD-Ti-keymap.dtsi"  // Hands Down Titanium layer
+#include "HD-Vb-keymap.dtsi"  // Hands Down Vibranium layer
 #include "qwerty-keymap.dtsi"  // QWERTY layer
 #include "layers.dtsi" // all the other layers
 
