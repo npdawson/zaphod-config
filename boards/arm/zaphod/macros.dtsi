@@ -11,4 +11,76 @@ macros {
                  , <&macro_tap &kp U>
             ;
     };
+    typeTh: typeTh {
+        label = "typeTh";
+        compatible = "zmk,behavior-macro";
+        tap-ms = <10>;
+        wait-ms = <10>;
+        #binding-cells = <0>;
+        bindings = <&macro_tap &kp T>
+                 , <&macro_release &kp LSHFT>
+                 , <&macro_release &kp RSHFT>
+                 , <&macro_tap &kp H>
+            ;
+    };
+    typeCh: typeCh {
+        label = "typeCh";
+        compatible = "zmk,behavior-macro";
+        tap-ms = <10>;
+        wait-ms = <10>;
+        #binding-cells = <0>;
+        bindings = <&macro_tap &kp C>
+                 , <&macro_release &kp LSHFT>
+                 , <&macro_release &kp RSHFT>
+                 , <&macro_tap &kp H>
+            ;
+    };
+    typeSh: typeSh {
+        label = "typeSh";
+        compatible = "zmk,behavior-macro";
+        tap-ms = <10>;
+        wait-ms = <10>;
+        #binding-cells = <0>;
+        bindings = <&macro_tap &kp S>
+                 , <&macro_release &kp LSHFT>
+                 , <&macro_release &kp RSHFT>
+                 , <&macro_tap &kp H>
+            ;
+    };
+    typeWh: typeWh {
+        label = "typeWh";
+        compatible = "zmk,behavior-macro";
+        tap-ms = <10>;
+        wait-ms = <10>;
+        #binding-cells = <0>;
+        bindings = <&macro_tap &kp W>
+                 , <&macro_release &kp LSHFT>
+                 , <&macro_release &kp RSHFT>
+                 , <&macro_tap &kp H>
+            ;
+    };
+    typeGh: typeGh {
+        label = "typeGh";
+        compatible = "zmk,behavior-macro";
+        tap-ms = <10>;
+        wait-ms = <10>;
+        #binding-cells = <0>;
+        bindings = <&macro_tap &kp G>
+                 , <&macro_release &kp LSHFT>
+                 , <&macro_release &kp RSHFT>
+                 , <&macro_tap &kp H>
+            ;
+    };
+    typePh: typePh {
+        label = "typePh";
+        compatible = "zmk,behavior-macro";
+        tap-ms = <10>;
+        wait-ms = <10>;
+        #binding-cells = <0>;
+        bindings = <&macro_tap &kp P>
+                 , <&macro_release &kp LSHFT>
+                 , <&macro_release &kp RSHFT>
+                 , <&macro_tap &kp H>
+            ;
+    };
 };
