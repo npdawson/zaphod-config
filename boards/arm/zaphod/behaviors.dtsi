@@ -15,6 +15,14 @@ behaviors {
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+        htQu: qu_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "qu_hold_tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&typeQu>;
+        };
         CmmaSemi: CmmaSemi {
             compatible = "zmk,behavior-mod-morph";
             label = "comma_semi";
