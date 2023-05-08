@@ -31,6 +31,6 @@ combos {
     COMBO(ph, &typePh, 21 23, l_alpha)  // FD -> PH
     
     //COMBO(typeQ, &kp Q, 28 29, l_alpha)
-    COMBO(typeQu, &typeQu, 1 3, l_alpha)  // XG -> Qu, hold for Q
+    COMBO(htQu, &htQu Q 0, 1 3, l_alpha)  // XG -> Qu, hold for Q
     COMBO(typeZ, &kp Z, 0 1, l_alpha)
 };
