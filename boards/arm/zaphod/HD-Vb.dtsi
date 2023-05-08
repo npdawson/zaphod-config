@@ -1,0 +1,17 @@
+ /*   Base (alpha) Layer  (Hands Down Vibranium)
+   ╭────────────────────╮ ╭────────────────────╮
+   │  W   X   M   G  J  │ │ #_  .:  =*  /?  '" │
+   │  C   S   N   T  K  | | ,;   A   E   I   H │
+   │  P   F   L   D  V  │ │ -+   U   O   Y   B │
+   ╰───────────╮ BSP R  │ │ SPC RET ╭──────────╯
+               ╰────────╯ ╰─────────╯   */
+
+default_layer {
+    label = "HD-Vb";
+    bindings = <
+&kp W      &kp X      &kp M       &kp G       &kp J       &HashUndr &DotColn    &EqlStar   &kp SLASH   &kp SQT
+&hm LGUI C &hm LALT S &hm LCTRL N &hm LSHFT T &lt l_num K &CmmaSemi &hm RSHFT A &hm RCTRL E &hm RALT I &hm RGUI H
+&kp P      &kp F      &kp L       &kp D       &kp V       &MinusPlus &kp U      &kp O       &kp Y      &kp B
+                               &lt l_sym BKSP &lt l_nav R &lt l_sym SPACE &lt l_fn RET
+    >;
+};
