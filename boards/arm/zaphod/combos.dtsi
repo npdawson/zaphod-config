@@ -22,7 +22,15 @@ combos {
     COMBO(esc, &kp ESC, 10 13, l_alpha l_qwerty)
     COMBO(tab, &kp TAB, 10 11, l_alpha l_qwerty)
     
-    COMBO(typeQ, &kp Q, 28 29, l_alpha)
-    COMBO(typeQu, &typeQu, 28 28, l_alpha)
+    // ?H bigram combos
+    COMBO(th, &typeTh, 12 13, l_alpha)  // TN -> TH
+    COMBO(ch, &typeCh, 11 13, l_alpha)  // ST -> CH
+    COMBO(sh, &typeSh, 11 12, l_alpha)  // SN -> SH
+    COMBO(wh, &typeWh, 0 2, l_alpha)  // WM -> WH
+    COMBO(gh, &typeGh, 2 3, l_alpha)  // GM -> GH
+    COMBO(ph, &typePh, 21 23, l_alpha)  // FD -> PH
+    
+    //COMBO(typeQ, &kp Q, 28 29, l_alpha)
+    COMBO(typeQu, &typeQu, 1 2, l_alpha)
     COMBO(typeZ, &kp Z, 0 1, l_alpha)
 };
